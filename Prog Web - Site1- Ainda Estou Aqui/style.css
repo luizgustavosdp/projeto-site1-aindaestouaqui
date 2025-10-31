@@ -1,0 +1,144 @@
+body{
+background-color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana;
+    margin: 0;
+    padding: 0;
+    background-image: url("fernandatorres.png");
+    background-repeat: no-repeat;    /* evita repetição */
+    background-size: cover;          /* cobre toda a tela */
+}
+header{
+    background-color: rgba(0, 0, 0, 0); /* transparente */
+    color: white;
+    padding: 0px;
+    text-align: center;
+    border-bottom: 2px solid #444;
+    background-color: rgba(0, 0, 0, 0); /* transparente */
+}
+h1{    
+    font-family: 'Arial Black', sans-serif;
+    color: #F5F5F5;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    color: #F5F5F5;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+}
+.poster{
+  position: absolute;  /* permite mover livremente */
+  top: 1250px;           /* distância do topo */
+  left: 200px;         /* distância da esquerda */
+  width: 500px;
+  height: 650px;
+  
+}
+.titulo{
+  position: absolute;  /* permite mover livremente */
+  top: 750px;           /* distância do topo */
+  left: 0px;          /*distância da esquerda */
+  width: 1000px;
+  height: 400px;
+  font-size: 50px;     /* define o tamanho da letra */
+  font-weight: bold; /* deixa em negrito */
+}
+
+div.textoprincipal{
+  position: absolute;  /* permite mover livremente */
+  top: 1250px;           /* distância do topo */
+  left: 800px;         /* distância da esquerda */
+  width: 1000px;
+  height: 625px;
+  background-color: rgba(109, 107, 104, 0.1); /* transparente */
+  padding: 20px;
+   border-radius: 20px;
+}
+h2{
+    color: black;
+    font-size: 40px;
+    font-family: comic sans ms;
+    font-weight: bold;
+    text-align: center;
+}
+p.sinopse{
+    color: black;
+    font-size: 30px;
+    font-family:comic sans ms;
+    font-weight: normal;
+}
+
+div.informacoes{
+  position: absolute;  /* permite mover livremente */
+  top: 2000px;           /* distância do topo */
+  left: 100px;         /* distância da esquerda */
+  width: 800px;
+  height: 200px;
+  font-weight: normal;
+}
+.detalhes{
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 10px;
+    font-family:comic sans ms;
+    background-color: rgba(109, 107, 104, 0.1); /* transparente */
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+.trailer{
+  position: absolute;  /* permite mover livremente */
+  top: 2010px;           /* distância do topo */
+  right: 200px;         /* distância da esquerda */
+  width: 800px;
+  height: 450px;
+
+}
+div.compras{
+  position: absolute;  /* permite mover livremente */
+  top: 2500px;           /* distância do topo */
+  left: 100px;         /* distância da esquerda */
+  width: 1600px;
+  height: 920px;
+  background-color: rgba(109, 107, 104, 0.1); /* transparente */
+  padding: 20px;
+  border-radius: 20px;
+}
+.fazercomprar{
+    color: black;
+    font-size: 30px;
+    font-family:comic sans ms;
+    font-weight: normal;
+}
+.comprarfilme{    
+    font-family: 'Arial Black', sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+div.logoscompras{
+  position: absolute;  /* permite mover livremente */
+  top: 400px;           /* distância do topo */
+  left: 875px;         /* distância da esquerda */
+  width: 650px;
+  height: 200px;
+  background-color: rgba(109, 107, 104, 0.1);
+  padding: 50px;
+  border-radius: 20px;
+}
+.escolha{
+    top: 100px;
+    right: 50px;
+    color: black;
+    font-size: 35px;
+    font-family:comic sans ms;
+    font-weight: normal;
+}
+.rodape{
+    top: 3900px;
+    position: absolute;
+    text-align: center;
+}
